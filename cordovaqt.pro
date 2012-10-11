@@ -6,7 +6,7 @@ wwwDir.source = www
 xmlDir.source = xml
 qmlDir.source = qml
 
-harmattan {
+mer {
 MEEGO_VERSION_MAJOR = 2
 }
 
