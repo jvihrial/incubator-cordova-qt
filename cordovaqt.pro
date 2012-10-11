@@ -6,8 +6,11 @@ wwwDir.source = www
 xmlDir.source = xml
 qmlDir.source = qml
 
-DEPLOYMENTFOLDERS = wwwDir xmlDir qmlDir# file1 dir1
+harmattan {
+MEEGO_VERSION_MAJOR = 2
+}
 
+DEPLOYMENTFOLDERS = wwwDir xmlDir qmlDir# file1 dir1
 
 SOURCES += main.cpp \
     src/plugins/notification.cpp \
